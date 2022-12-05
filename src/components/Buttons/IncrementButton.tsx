@@ -10,14 +10,18 @@ interface IncrementButtonProps {
 }
 
 const IncrementButton = ({ value, handleClick }: IncrementButtonProps) => {
+  const buttonIcon =
+    value > 0 ? <AddIcon /> : value < 0 ? <RemoveIcon /> : undefined;
+  const buttonLabel = value > 0 ? "Augmenter" : value < 0 ? "Diminuer" : "Égal";
+
   return (
     <Button
       onClick={() => handleClick(value)}
       variant="contained"
-      endIcon={value > 0 ? <AddIcon /> : <RemoveIcon />}
+      endIcon={buttonIcon}
       className="icon-button"
     >
-      <span>{value > 0 ? "Augmenter" : "Diminuer"}</span>
+      <span>{buttonLabel}</span>
     </Button>
   );
 };

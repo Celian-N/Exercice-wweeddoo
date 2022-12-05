@@ -15,10 +15,10 @@ const Home = () => {
       <header>
         <img src="wweeddoo.png" alt="Logo Wweeddoo"/>
       </header>
-      <div className="home">
-        <div className="counter">
+      <div className="home column">
+        <div className="counter column">
           <CounterDisplayer value={counter} />
-          <div className="increment-buttons">
+          <div className="increment-buttons row">
             <IncrementButton
               value={-1}
               handleClick={updateCounterValue}
