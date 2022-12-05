@@ -15,5 +15,5 @@
 .icon-button:hover {
   background-color: rgba(243, 106, 21, 0.6) !important;
   color: white !important;
-  transform: scale(0.98);
+  transform: scale(0.97);
 }

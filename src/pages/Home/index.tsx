@@ -18,7 +18,7 @@ const Home = () => {
       <div className="home column">
         <div className="counter column">
           <CounterDisplayer value={counter} />
-          <div className="increment-buttons row">
+          <div className="counter__increment-buttons row">
             <IncrementButton
               value={-1}
               handleClick={updateCounterValue}

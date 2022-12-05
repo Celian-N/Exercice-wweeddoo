@@ -1,8 +1,6 @@
-.counter-wrapper {
-  position: relative;
+.counter-container {
   padding: 20px 40px;
   border-radius: 20px !important;
-  overflow: hidden;
   color: rgb(243, 106, 21);
   background: white;
   font-size: 20px;

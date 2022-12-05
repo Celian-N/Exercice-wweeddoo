@@ -30,10 +30,10 @@ header > img {
   align-items: center;
 }
 
-.increment-buttons {
+.counter__increment-buttons {
   align-items: center;
   margin-top: 20px;
 }
-.increment-buttons > button {
+.counter__increment-buttons > button {
   margin: 10px;
 }
